@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    border-radius: 10px;
+    padding-top: 5px;
+    width: 100%;
+    height: 60px;
+
+    background-color: black;
+}
+
+.header-nav > a {
+    margin: 10px;
+    height: 25px;
+
+    position: relative;
+    top: 5px;
+
+    text-decoration: none;
+    font-family: "Georgia";
+    color: white;
+}
+
+.header-nav > a:hover {
+    color: #00ff00;
+}
+
+.about > a {
+    float: left;
+    text-align: left;
+    left: 10px;
+}
+
+.login > a {
+    float: right;
+    text-align: right;
+    right: 10px;
+}
+
+.main-box {
+    width: 100%;
+    height: 800px;
+}
+
+.main-img {
+    width: inherit;
+    height: inherit;
+
+    position: absolute;
+    z-index: 1;
+
+    background-image: linear-gradient(
+        rgba( 0, 0, 0, 0.5 ),
+        rgba( 0, 0, 0, 0.5 )
+    ),
+     url( "../imgs/pavilion.jpg" );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur( 5px );
+}
+
+.main-instruct {
+    margin: 15px 20px;
+    border-radius: 10px;
+    padding: 3px;
+    width: 97%;
+    height: 100px;
+
+    position: absolute;
+    z-index: 2;
+
+    text-align: center;
+    font-family: "Verdana";
+    font-size: 2.5em;
+    color: #d9d9d9;
+
+    animation: fadeIn ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.main-box-block {
+
+}

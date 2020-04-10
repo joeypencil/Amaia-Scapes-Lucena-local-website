@@ -1,96 +1,103 @@
 * {
+    margin: 0;
+    padding: 0;
+    
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
-    border-radius: 10px;
-    padding-top: 5px;
     width: 100%;
-    height: 60px;
+    height: 2.8rem;
+
+    position: fixed;
+    overflow: hidden;
 
     background-color: black;
 }
 
-.header-nav > a {
-    margin: 10px;
-    height: 25px;
-
-    position: relative;
-    top: 5px;
-
-    text-decoration: none;
-    font-family: "Georgia";
-    color: white;
-}
-
-.header-nav > a:hover {
-    color: #00ff00;
-}
-
-.about > a {
+header li {
     float: left;
-    text-align: left;
-    left: 10px;
+    list-style-type: none;
 }
 
-.login > a {
-    float: right;
-    text-align: right;
-    right: 10px;
+header li a {
+    padding: 12px 15px;
+
+    display: block;
+
+    font-family: "Segoe UI";
+    color: white;
+    text-align: center;
+    text-decoration: none;
 }
 
-.main-box {
+header li a:hover {
+    background-color: #00cc00;
+    transition: background-color 0.5s;
+}
+
+main {
     width: 100%;
-    height: 800px;
+    overflow: hidden;
 }
 
-.main-img {
-    width: inherit;
-    height: inherit;
+article, section {
+    display: block;
+}
 
-    position: absolute;
-    z-index: 1;
+article {
+    width: 100%;
+    height: 17rem;
 
-    background-image: linear-gradient(
-        rgba( 0, 0, 0, 0.5 ),
-        rgba( 0, 0, 0, 0.5 )
-    ),
-     url( "../imgs/pavilion.jpg" );
+    background-color: #282E34;
+    color: #ddd;
+}
+
+article > p, article li  {
+    padding: 0 7rem;
+
+    font-family: "Segoe UI";
+    text-align: left;
+}
+
+article ul {
+    margin: 1rem 0;
+}
+
+article li {
+    padding: 0 9rem;
+
+    list-style-type: circle;
+}
+
+article li:before {
+    display: inline-block;
+    width: 1rem;
+}
+
+h3 {
+    padding: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Arial";
+    font-size: 24px;
+}
+
+.fas {
+    font-size: 15px;
+    color: #00cc00;
+}
+
+.parallax {
+    width: 100%;
+    height: 36.25rem;
+
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    filter: blur( 5px );
-}
-
-.main-instruct {
-    margin: 15px 20px;
-    border-radius: 10px;
-    padding: 3px;
-    width: 97%;
-    height: 100px;
-
-    position: absolute;
-    z-index: 2;
-
-    text-align: center;
-    font-family: "Verdana";
-    font-size: 2.5em;
-    color: #d9d9d9;
-
-    animation: fadeIn ease 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-.main-box-block {
-
 }

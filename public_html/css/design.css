@@ -101,3 +101,12 @@ h3 {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.contact-info {
+    padding-left: 4rem;
+    width: 33.3%;
+    height: 10rem;
+    
+    display: block;
+    float: left;
+}

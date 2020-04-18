@@ -37,9 +37,15 @@ header a:hover,
     transition: background-color 0.5s;
 }
 
-main {
+main,
+footer {
     width: 100%;
     overflow: hidden;
+}
+
+footer article p {
+    font-size: 0.75rem;
+    text-align: center;
 }
 
 article {
@@ -64,13 +70,17 @@ article li {
     padding: 0 9rem;
 }
 
-h3 {
+h3, h1 {
     padding: 2rem;
     
     text-transform: uppercase;
     text-align: center;
     font-family: "Arial";
-    font-size: 1.5rem;
+    font-size: 2rem;
+}
+
+h1 {
+    font-size: 1.25rem;
 }
 
 .dropdown {

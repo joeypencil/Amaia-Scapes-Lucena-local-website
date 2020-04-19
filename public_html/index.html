@@ -1,32 +1,8 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Stephen Joe Tiamsing">
-        <meta name="description" content="A local website for the residents of Amaia Scapes Lucena">
-        <meta name="keywords" content="Amaia, Amaia Scapes, Lucena">
-        <title>Home | Amaia Lucena</title>
-        <link rel="icon" href="imgs/amaia-favicon.png">
-        <link href="css/design.css" rel="stylesheet" type="text/css">
-        <link href="css/all.css" rel="stylesheet" type="text/css">
-    </head>
+    <head></head>
     <body>
-        <header>
-            <a href="">Home</a>
-            <a href="">Contact Us</a>
-            <div class="dropdown">
-                <button class="dropbtn">Community Tools
-                    <i class="fas fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="#">Announcements</a>
-                    <a href="#">Bill Monitor</a>
-                    <a href="#">Memo Tracker</a>
-                    <a href="#">Store Map</a>
-                </div>
-            </div>
-        </header>
+        <header></header>
         <main>
             <section class="parallax" style="background-image: url( imgs/amaia-entrance.jpg )"></section>
             <article style="height: 17rem">
@@ -112,12 +88,16 @@
             </article>
             <section class="parallax" style="background-image: url( imgs/house-interior.jpg )"></section>
         </main>
-        <footer>
-            <article style="height: 9rem">
-                <h1>About the developer</h1>
-                <p>This website is developed and being maintained by Stephen Joe Tiamsing, resident in Block 2, Lot 11, Valdez Street, with assistance from his wife, Cris Ann Tiamsing.</p>
-                <p>If you would like to contribute to this project, please send a pull request to this <a href="https://github.com/joeypencil/Amaia-Scapes-Lucena-local-website">Github repository</a>.</p>
-            </article>
-        </footer>
+        <footer></footer>
+        <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            $(function(){
+                $("head").load("includes/head.html");
+                $("header").load("includes/header.html", function(){
+                    document.title = "Home | Amaia Lucena";
+                });
+                $("footer").load("includes/footer.html");
+            });
+        </script>
     </body>
 </html>

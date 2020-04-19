@@ -106,8 +106,6 @@ h1 {
     display: none;
     position: fixed;
     background-color: black;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 2;
 }
 
 .dropdown-content a {

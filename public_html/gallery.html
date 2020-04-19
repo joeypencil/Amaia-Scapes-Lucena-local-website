@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <header></header>
+        <main>
+            
+        </main>
+        <footer></footer>
+        <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            $(function(){
+                $("head").load("includes/head.html");
+                $("header").load("includes/header.html", function(){
+                    document.title = "Gallery | Amaia Lucena";
+                });
+                $("footer").load("includes/footer.html");
+            });
+        </script>
+    </body>
+</html>

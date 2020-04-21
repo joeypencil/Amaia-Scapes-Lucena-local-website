@@ -10,30 +10,8 @@ html {
     scroll-behavior: smooth;
 }
 
-header {
-    width: 100%;
-
-    position: fixed;
-    overflow: hidden;
-
-    background-color: black;
-}
-
-header a {
-    padding: 0.75rem 0.9375rem;
-
-    display: block;
-    float: left;
-
-    color: white;
-    text-align: center;
-    text-decoration: none;
-}
-
-header a:hover,
-.dropdown .dropbtn:hover,
-.dropdown-content a:hover {
-    background-color: #00cc00;
+nav a,
+nav button {
     transition: background-color 0.5s;
 }
 
@@ -157,4 +135,19 @@ h1 {
 
 .contact-num {
     margin-left: 1rem;
+}
+
+.slideshow-outer-box {
+    margin-top: 2.75rem;
+    border: 2px solid red;
+    height: 35rem;
+        
+    position: relative;
+}
+
+.slideshow-inner-box {
+    margin: 3rem;
+    border: 2px solid brown;
+    width: 92.5%;
+    height: 80%;
 }

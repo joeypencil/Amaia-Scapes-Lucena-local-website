@@ -15,28 +15,6 @@ nav button {
     transition: background-color 0.5s;
 }
 
-
-
-/*
-footer article p {
-    font-size: 0.75rem;
-    text-align: center;
-}
-
-h3, h1 {
-    padding: 2rem;
-    
-    text-transform: uppercase;
-    text-align: center;
-    font-family: "Arial";
-    font-size: 2rem;
-}
-
-h1 {
-    font-size: 1.25rem;
-}
-*/
-
 .fas, .far {
     margin-right: 0.5rem;
     font-size: 1rem;
@@ -51,40 +29,4 @@ h1 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.contact-info {
-    margin: 0 0 0 1rem;
-    width: 30%;
-    height: 10rem;
-    
-    display: block;
-    float: left;
-}
-
-.contact-info li {
-    margin: 0.5rem 0 0 4rem;
-    padding: 0;
-    width: 100%;
-
-    list-style-type: none;
-}
-
-.contact-num {
-    margin-left: 1rem;
-}
-
-.slideshow-outer-box {
-    margin-top: 2.75rem;
-    border: 2px solid red;
-    height: 35rem;
-        
-    position: relative;
-}
-
-.slideshow-inner-box {
-    margin: 3rem;
-    border: 2px solid brown;
-    width: 92.5%;
-    height: 80%;
 }

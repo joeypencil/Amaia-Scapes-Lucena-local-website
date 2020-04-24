@@ -10,15 +10,25 @@ html {
     scroll-behavior: smooth;
 }
 
-nav a,
-nav button {
+.navbar a:hover,
+.dropdown button:hover {
+    background-color: #10b410;
     transition: background-color 0.5s;
+    box-shadow: 0 0 15px 4px #10b410;
+    transition: box-shadow 0.1s;
+}
+
+.dropdown button:hover i {
+    color: #fc0909;
+    transition: color 0.5s;
+    text-shadow: 0 0 5px #fc0909;
+    transition: text-shadow 0.1s;
 }
 
 .fas, .far {
     margin-right: 0.5rem;
     font-size: 1rem;
-    color: #00cc00;
+    color: #10b410;
 }
 
 .parallax {

@@ -14,7 +14,7 @@ html {
 .dropdown button:hover {
     background-color: #10b410;
     transition: background-color 0.5s;
-    box-shadow: 0 0 15px 4px #10b410;
+    box-shadow: 0 0 15px 4px #00ff00;
     transition: box-shadow 0.1s;
 }
 
@@ -28,7 +28,7 @@ html {
 .fas, .far {
     margin-right: 0.5rem;
     font-size: 1rem;
-    color: #10b410;
+    color: #00ff00;
 }
 
 .parallax {

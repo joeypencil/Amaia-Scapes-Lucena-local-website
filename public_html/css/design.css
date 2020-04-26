@@ -10,11 +10,15 @@ html {
     scroll-behavior: smooth;
 }
 
+main {
+    margin-top: 54px;
+}
+
 .navbar a:hover,
 .dropdown button:hover {
-    background-color: #10b410;
+    background-color: #009900;
     transition: background-color 0.5s;
-    box-shadow: 0 0 15px 4px #00ff00;
+    box-shadow: 0 0 15px 4px #00b300;
     transition: box-shadow 0.1s;
 }
 

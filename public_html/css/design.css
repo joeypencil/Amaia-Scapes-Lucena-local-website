@@ -18,6 +18,11 @@ html {
     transition: box-shadow 0.1s;
 }
 
+.table tbody tr:hover {
+    box-shadow: 0 0 15px 4px #00ff00;
+    transition: box-shadow 0.1s;
+}
+
 .dropdown button:hover i {
     color: #fc0909;
     transition: color 0.5s;
